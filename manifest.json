@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Sakurity Racer",
+    "version": "1.0",
+    "short_name": "One-click utility to test race conditions.",
+    "description": "Just click the sniffer button and do some action that you are supposed to be allowed to do only once (financial transactions are the best). For next 3 seconds all requests will be blocked in your browser and sent to a server running racer.js. Racer.js will repeat the request in parallel to trigger potential race conditions. We recommend to have servers as close to the victim as possible. There are no Settings page so if you want to tweak anything in runtime click - Inspect views: background page. ",
+    "author": "Sakurity Limited",
+    "homepage_url": "https://github.com/sakurity/racer",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*",
+        "storage"
+    ],
+    "icons": { "48": "logo-48.png"},
+    "background": {
+        "persistent": true,
+        "scripts": ["sniffer.js"]
+    },
+  "browser_action": {
+      "default_icon": "off.png"
+    }
+}
