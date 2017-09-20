@@ -1,5 +1,7 @@
 # Sakurity Racer
 
+![](https://media.giphy.com/media/xT9IghAnWAtfSlg6re/giphy.gif)
+
 This 128 LOC extension works pretty much as a "Make Money" button if used properly.
 
 LEGAL: Use at your own risk and only with your own projects. Do not use it against anyone else.
