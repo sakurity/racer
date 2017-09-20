@@ -20,5 +20,9 @@ But 99% of race attacks are just like that: click on the sniffer, perform an act
 
 You will be surprised how many developers don't know about locking and transactions. Be nice and tell them to use `SELECT FOR UPDATE`. Or `$redis.lock` if they are crazy enough to run a financial app on NoSQL.
 
-Found a bug using this tool? Please add a link below :)
+Found a bug using this tool? Please add a link or GIF below!
+
+1. Twitter likes https://twitter.com/homakov/status/910553628259348480
+
+
 
