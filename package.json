@@ -1,0 +1,22 @@
+{
+  "name": "racer",
+  "version": "0.0.0",
+  "description": "One-click utility to test race conditions",
+  "main": "racer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakurity/racer.git"
+  },
+  "author": "Sakurity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakurity/racer/issues"
+  },
+  "homepage": "https://github.com/sakurity/racer#readme",
+  "dependencies": {
+    "request": "^2.82.0"
+  }
+}
